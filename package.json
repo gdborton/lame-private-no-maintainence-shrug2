@@ -21,7 +21,8 @@
   "devDependencies": {
     "@machinomy/types-readable-stream": "git+https://github.com/machinomy/types-readable-stream.git",
     "@types/node": "^10.11.4",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "prebuildify-ci": "^1.0.5"
   },
   "scripts": {
     "test": "mocha --reporter spec",
