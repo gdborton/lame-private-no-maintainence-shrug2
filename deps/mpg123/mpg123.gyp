@@ -222,20 +222,6 @@
         }],
       ],
       'sources': [ 'src/output/<(mpg123_backend).c' ],
-    },
-
-    {
-      'target_name': 'test',
-      'type': 'executable',
-      'dependencies': [ 'mpg123' ],
-      'sources': [ 'test.c' ]
-    },
-
-    {
-      'target_name': 'output_test',
-      'type': 'executable',
-      'dependencies': [ 'output' ],
-      'sources': [ 'test_output.c' ]
     }
   ]
 }
