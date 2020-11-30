@@ -1,7 +1,6 @@
 sudo: false
 language: node_js
 node_js:
-- node
 - "14"
 addons:
   apt:
@@ -30,6 +29,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    node: node
   api_key:
     secure: c348hClAfoVy5a/zWvZupfPL6EdgwhH4DCl4tdWcfcHF5Ta5To26/C+txkJHdlWUTI/yPbq1LRvboiiyyM/2K5yVprlCHa13Dglzhmih1ZJJaux8Uhhb0hYc7y74HGinv9IDkPldPyRjy4pgPUXgtF5Tl84xfb5R+LruJz0E0DT4u9zD/KRtqFdtInOvYUxfrOLePq5i3JN2cOGbP9YiP66x6bOEtPqyCrm/w4Exyp8HyxUN6rXNmNEAqEuvM1t0LQHe/INkcgAWQfLwKab/AbnSmganw8yC+O1bVSL9Y3oQ+Ow1u6zhe+ZEvKcJX2hM8HJT9HNr/Vf46j8BLXtzz4J3fbYJ8Ik2BRfBMLdSvudaPJ/3r3woCzdl0d8Dg3Ka3Z9nevmgSfUBaWI8AQ9qqwHBzUen5e6izaly46iU+r9uUVY8Vt2QJIP2c007zqMVwu0chMwiF08wX0n7D+oKfTqnnjJWDXuUwZczWE6qgbTLiUbxK8X4Bu5d9fz0aFedjDmtvQ6LAFtANLRh7GOrJ6o9PBmC8V5bWDWx/9O91Ex3nTjFhpr1sLvqnxf0IlEw1icX0wtn5pjjQjNJJvfJH2NhaU9LEP80/hJE9RcnRF5MTp4L2efKAn5TPPe2uN7x9QNjdNbE8v1E17j40dcWbcxMWQd/rzWiwAS0IWNYDy8=
