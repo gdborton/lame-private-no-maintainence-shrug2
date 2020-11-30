@@ -1,16 +1,8 @@
 {
-  "name": "lame",
+  "name": "lame-private-no-maintainence-shrug2",
   "description": "NodeJS native bindings to libmp3lame & libmpg123.",
-  "keywords": [
-    "lame",
-    "mpg123",
-    "mp3",
-    "mpeg",
-    "mpg",
-    "encode",
-    "decode"
-  ],
-  "version": "1.2.5",
+  "keywords": [],
+  "version": "0.0.0-alpha.5",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "license": "MIT",
   "repository": {
@@ -23,6 +15,7 @@
     "bindings": "^1.2.1",
     "debug": "^2.2.0",
     "nan": "^2.14.0",
+    "node-gyp-build": "^4.2.3",
     "readable-stream": "^1.0.34"
   },
   "devDependencies": {
@@ -31,6 +24,8 @@
     "mocha": "^6.2.2"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "install": "node-gyp-build",
+    "prebuild": "prebuildify --all"
   }
 }
