@@ -22,6 +22,7 @@
     "@machinomy/types-readable-stream": "git+https://github.com/machinomy/types-readable-stream.git",
     "@types/node": "^10.11.4",
     "mocha": "^6.2.2",
+    "prebuildify": "^4.1.1",
     "prebuildify-ci": "^1.0.5"
   },
   "scripts": {
