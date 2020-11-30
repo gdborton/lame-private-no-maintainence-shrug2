@@ -2,7 +2,7 @@
   "name": "lame-private-no-maintainence-shrug2",
   "description": "NodeJS native bindings to libmp3lame & libmpg123.",
   "keywords": [],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "license": "MIT",
   "repository": {
