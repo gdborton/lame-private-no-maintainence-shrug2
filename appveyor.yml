@@ -38,4 +38,4 @@ deploy:
       secure: lgmuC+ZF5mypnRDBWnIJ5WOIe2EvkXIrh4bxYDp7E6or46yqXQUBW+4VVu4ru5bG
     on:
       appveyor_repo_tag: true
-      nodejs_version: "Current"
+      nodejs_version: "14"
