@@ -70,6 +70,7 @@ for:
       only:
         - image: macOS
     install:
+      - sh: brew install gcc@7
       - sh: nvm install --lts
       - npm install
     artifacts:
