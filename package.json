@@ -29,6 +29,6 @@
     "test": "mocha --reporter spec",
     "install": "node-gyp-build",
     "prebuild": "prebuildify --napi",
-    "download": "prebuildify-ci download"
+    "download": "rm -rf prebuilds; prebuildify-ci download"
   }
 }
